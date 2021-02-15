@@ -15,8 +15,8 @@ void setup() {
 }
 
 void draw() {
-  float normMouseX = map(mouseX, 0, width, 0, 0.5);
-  float normMouseY = map(mouseY, 0, height, 0, 0.5);
+  float normMouseX = map(mouseX, 0, width, 0, 0.25);
+  float normMouseY = map(mouseY, 0, height, 0, 0.25);
   displacementmap.set("normMouseX", normMouseX );
   displacementmap.set("normMouseY", normMouseY );
   displacementmap.set("img1", img);
